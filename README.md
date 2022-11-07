@@ -31,7 +31,6 @@ $dbHost - Your Sendy Database Host
 $dbUser - Your Sendy Database User
 $dbPass - Your Sendy Database Password
 $dbName - Your Sendy Database Name
-Then set file permissions of /uploads/ folder to 777. It's required for image uploading.
 ```
 
 ## Development
