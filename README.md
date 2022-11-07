@@ -14,7 +14,24 @@ DATABASE HOST, USER PASSWORD AND DATABASE NAME
 ```
 Do not forget to set writing permissions to ```/uploads/``` folder.
 
-View [online documentation](https://getemailbuilder.com/sendy/documentation) for more information.
+
+### Installation Instructions
+(Previously listed at getemailbuilder.com/sendy/documentation)
+Installation of the Email Builder for Sendy is similar to installation process of Sendy
+
+Installation
+We recommend you to install Email Builder addon to separate subdomain. You will be able to login to Email Builder with your Sendy credentials.
+
+First of all - upload files to your server, then change the following variables in _config.php:
+
+APP_PATH - Email Builder installation URL, for example https://emailbuilder.yourdomain.com
+SENDY_URL - Your Sendy URL, for example https://sendy.yourdomain.com
+SENDY_API_KEY - Your Sendy API Key
+$dbHost - Your Sendy Database Host
+$dbUser - Your Sendy Database User
+$dbPass - Your Sendy Database Password
+$dbName - Your Sendy Database Name
+Then set file permissions of /uploads/ folder to 777. It's required for image uploading.
 
 ## Development
 The package is based on [Laravel Mix](https://github.com/JeffreyWay/laravel-mix).
